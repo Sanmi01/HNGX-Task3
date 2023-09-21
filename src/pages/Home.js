@@ -22,11 +22,11 @@ const Home = () => {
 
   const dragImage = useCallback((dragIndex, hoverIndex) => {
     setImages((prevCards) => {
-      const clonedCards = [...prevCards];
-      const removedItem = clonedCards.splice(dragIndex, 1)[0];
+      const clonedImages = [...prevCards];
+      const removedCard = clonedImages.splice(dragIndex, 1)[0];
 
-      clonedCards.splice(hoverIndex, 0, removedItem);
-      return clonedCards;
+      clonedImages.splice(hoverIndex, 0, removedCard);
+      return clonedImages;
     });
   }, []);
 
