@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Image Gallery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Image Gallery built with React and Tailwind
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Straightforward Authentication:** Users can easily log in using the provided credentials:
+  - Email: <user@example.com>
+  - Password: 1Password
 
-### `yarn start`
+- **Image Showcase:** Experience a well-organized grid layout that beautifully presents your images, ensuring consistent spacing and sizing. Each image comes with descriptive tags.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Seamless Loading Experience:** When images are in the process of loading, a sleek loading spinner or a smooth skeleton loader keeps you engaged.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search Functionality:** Easily filter images by tags using the search field.
 
-### `yarn test`
+- **Intuitive Drag-and-Drop:** Rearrange images within the gallery effortlessly using the intuitive drag-and-drop feature.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User-Centric Feedback:** Enjoy a user-friendly experience with smooth animations and visual cues that enhance interactions during drag-and-drop actions.
 
-### `yarn build`
+- **Responsive Design:** The gallery is designed to work seamlessly on various devices, including mobile phones, tablets, and desktops.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Creative Design Freedom:** While meeting all functional requirements, we've embraced creative freedom to deliver a unique and visually appealing design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project
 
-### `yarn eject`
+```bash
+  git clone https://github.com/Sanmi01/HNGX-Task3.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd HNGX-Task3 
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  yarn install
+```
 
-## Learn More
+Start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application should now be running at <http://localhost:3000>
