@@ -57,7 +57,7 @@ const Home = () => {
     <div className="p-8 m-8">
       <div className="gap-8 flex flex-wrap justify-between items-center border-b-2 border-[#e3f1f5] rounded">
         <h1 className="text-2xl font-semibold">PictureGird</h1>
-        <div className="flex flex-col justify-end">
+        <div className="flex flex-col justify-end text-end">
         <p>Welcome <br />{currentUser.email}</p>
         <button
           onClick={handleLogout}
