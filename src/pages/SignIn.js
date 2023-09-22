@@ -39,7 +39,7 @@ const SignIn = () => {
 };
   return (
     <div className="flex flex-col justify-center align-middle items-center h-screen">
-        <h1>Sign In</h1>
+        <h1>Sign In to PictureGird</h1>
         <form onSubmit={handleSubmit(submitForm)} className="my-3 bg-slate-500 w-[75%]  m-4 p-4 rounded-3xl text-center">
         {errorMessage && <p className="p-4 bg-red-500 text-center inline-block mx-auto rounded-lg">{errorMessage}</p>}
             <div className="flex flex-col text-left my-3">

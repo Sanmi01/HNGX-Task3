@@ -16,3 +16,9 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 425px) {
+  .image-container {
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 18rem));
+  }
+
+}
